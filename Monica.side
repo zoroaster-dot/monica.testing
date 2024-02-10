@@ -1,0 +1,415 @@
+{
+  "id": "dcd42aed-12eb-46e7-8bb0-f635bb8ec37d",
+  "version": "2.0",
+  "name": "Monica",
+  "url": "https://www.monicahq.com",
+  "tests": [{
+    "id": "8228e743-4b63-4259-88f4-1e0a333e70c7",
+    "name": "Monica testing",
+    "commands": [{
+      "id": "4b569342-a97a-4f6e-a1c3-dfbd0882da3d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bf697c8-2fef-4791-9fdc-9876b7317439",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "355c70e0-4e94-404f-8d3c-d92e3649e65b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.fw4:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://app.monicahq.com/login')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c689d5-72d5-40b1-84d6-a3be4dc4f6c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=.header-nav-item-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//div[@id='app']/nav/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://app.monicahq.com/dashboard')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0494e0c-6c25-4353-be22-0a4668220e51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add someone",
+      "targets": [
+        ["linkText=Add someone", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Add someone')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/section/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.monicahq.com/people/add')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add someone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cab461c-190b-486c-be6e-d2909a4de472",
+      "comment": "",
+      "command": "click",
+      "target": "id=first_name6",
+      "targets": [
+        ["id=first_name6", "id"],
+        ["name=first_name", "name"],
+        ["css=#first_name6", "css:finder"],
+        ["xpath=//input[@id='first_name6']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720e8161-c34d-4dd8-acf8-89bfe5f3352b",
+      "comment": "",
+      "command": "type",
+      "target": "id=first_name6",
+      "targets": [
+        ["id=first_name6", "id"],
+        ["name=first_name", "name"],
+        ["css=#first_name6", "css:finder"],
+        ["xpath=//input[@id='first_name6']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Luthfil"
+    }, {
+      "id": "dd40d3bc-e0a9-4087-ba4f-5a9e8484319a",
+      "comment": "",
+      "command": "click",
+      "target": "id=middle_name7",
+      "targets": [
+        ["id=middle_name7", "id"],
+        ["name=middle_name", "name"],
+        ["css=#middle_name7", "css:finder"],
+        ["xpath=//input[@id='middle_name7']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243c887e-10ee-4331-bddd-89f3ade922f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=middle_name7",
+      "targets": [
+        ["id=middle_name7", "id"],
+        ["name=middle_name", "name"],
+        ["css=#middle_name7", "css:finder"],
+        ["xpath=//input[@id='middle_name7']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Hakim"
+    }, {
+      "id": "5388d0bd-798f-41cc-8223-77dcb7d5bafb",
+      "comment": "",
+      "command": "click",
+      "target": "id=last_name8",
+      "targets": [
+        ["id=last_name8", "id"],
+        ["name=last_name", "name"],
+        ["css=#last_name8", "css:finder"],
+        ["xpath=//input[@id='last_name8']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f3bbcc-1cb1-44bd-a9fc-fd5e2b19dd55",
+      "comment": "",
+      "command": "type",
+      "target": "id=last_name8",
+      "targets": [
+        ["id=last_name8", "id"],
+        ["name=last_name", "name"],
+        ["css=#last_name8", "css:finder"],
+        ["xpath=//input[@id='last_name8']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Imron"
+    }, {
+      "id": "c1189766-620f-4722-bd3b-0bdf419ef57a",
+      "comment": "",
+      "command": "click",
+      "target": "id=nickname9",
+      "targets": [
+        ["id=nickname9", "id"],
+        ["name=nickname", "name"],
+        ["css=#nickname9", "css:finder"],
+        ["xpath=//input[@id='nickname9']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aac6da5-fd7b-4050-8d03-cf846c99f96b",
+      "comment": "",
+      "command": "type",
+      "target": "id=nickname9",
+      "targets": [
+        ["id=nickname9", "id"],
+        ["name=nickname", "name"],
+        ["css=#nickname9", "css:finder"],
+        ["xpath=//input[@id='nickname9']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Ucil"
+    }, {
+      "id": "b16866bd-c4e8-45d9-99e4-e6a2b56b8851",
+      "comment": "",
+      "command": "click",
+      "target": "id=email10",
+      "targets": [
+        ["id=email10", "id"],
+        ["name=email", "name"],
+        ["css=#email10", "css:finder"],
+        ["xpath=//input[@id='email10']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35fe0ecc-6e38-4676-bec0-1b725463dbd6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email10",
+      "targets": [
+        ["id=email10", "id"],
+        ["name=email", "name"],
+        ["css=#email10", "css:finder"],
+        ["xpath=//input[@id='email10']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ucil@gmail.com"
+    }, {
+      "id": "c43d353e-7c11-4231-b090-f23c1ba15160",
+      "comment": "",
+      "command": "click",
+      "target": "id=gender11",
+      "targets": [
+        ["id=gender11", "id"],
+        ["name=gender", "name"],
+        ["css=#gender11", "css:finder"],
+        ["xpath=//select[@id='gender11']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12592925-0644-4f12-8f10-199753881e5d",
+      "comment": "",
+      "command": "select",
+      "target": "id=gender11",
+      "targets": [],
+      "value": "label=Man"
+    }, {
+      "id": "3613afc9-4d81-494d-adb9-e497b7938881",
+      "comment": "",
+      "command": "click",
+      "target": "name=save",
+      "targets": [
+        ["name=save", "name"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@name='save']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/form/div[4]/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7340009f-0106-4364-a04d-8a7733ab0bd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contacts",
+      "targets": [
+        ["linkText=Contacts", "linkText"],
+        ["css=.header-nav-item-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contacts')]", "xpath:link"],
+        ["xpath=//div[@id='app']/nav/div/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.monicahq.com/people')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Contacts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "895e4f01-0a3f-4380-95fe-4ec6c3587c1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1) > .vgt-left-align > a > span",
+      "targets": [
+        ["css=.clickable:nth-child(1) > .vgt-left-align > a > span", "css:finder"],
+        ["xpath=//table[@id='vgt-table']/tbody/tr/td[2]/a/span", "xpath:idRelative"],
+        ["xpath=//td[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ifka Muhammad Nabilah (Ifka)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1afb0ea-fe34-44dc-ad42-bc49411f0622",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-near-white:nth-child(1) > .w-100",
+      "targets": [
+        ["css=.bg-near-white:nth-child(1) > .w-100", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[4]/div/div/div[2]/div[2]/div/div/div/div[2]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2adcdeb-006d-4b46-bf0e-66a9dc91fa08",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bg-near-white:nth-child(1) > .w-100",
+      "targets": [
+        ["css=.bg-near-white:nth-child(1) > .w-100", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[4]/div/div/div[2]/div[2]/div/div/div/div[2]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hai"
+    }, {
+      "id": "4a519b70-6d96-4406-ab55-6844675711a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-near-white:nth-child(1) > .btn-primary",
+      "targets": [
+        ["css=.bg-near-white:nth-child(1) > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[8]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[4]/div/div/div[2]/div[2]/div/div/div/div[2]/div/form/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[39]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3859de-a82d-4153-ace5-cf7bf76bc9b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Journal",
+      "targets": [
+        ["linkText=Journal", "linkText"],
+        ["css=.header-nav-item-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Journal')]", "xpath:link"],
+        ["xpath=//div[@id='app']/nav/div/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.monicahq.com/journal')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96a7bdad-d3f9-48ff-a2e2-52f7dfea4e5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add a journal entry",
+      "targets": [
+        ["linkText=Add a journal entry", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Add a journal entry')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/section[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'journal/add')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add a journal entry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29b0d3d6-2370-4169-90b9-dc57fadf108f",
+      "comment": "",
+      "command": "click",
+      "target": "id=field-title",
+      "targets": [
+        ["id=field-title", "id"],
+        ["name=title", "name"],
+        ["css=#field-title", "css:finder"],
+        ["xpath=//input[@id='field-title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eab7f3e-2832-472f-a89a-85f63a73253d",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-title",
+      "targets": [
+        ["id=field-title", "id"],
+        ["name=title", "name"],
+        ["css=#field-title", "css:finder"],
+        ["xpath=//input[@id='field-title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Lorem ipsum"
+    }, {
+      "id": "a188a8b5-0ce4-4957-a990-5cf4c2f76308",
+      "comment": "",
+      "command": "click",
+      "target": "id=field-entry",
+      "targets": [
+        ["id=field-entry", "id"],
+        ["name=entry", "name"],
+        ["css=#field-entry", "css:finder"],
+        ["xpath=//textarea[@id='field-entry']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97d41205-1753-46dc-946f-24c5778a4f6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-entry",
+      "targets": [
+        ["id=field-entry", "id"],
+        ["name=entry", "name"],
+        ["css=#field-entry", "css:finder"],
+        ["xpath=//textarea[@id='field-entry']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sem ut magna dignissim convallis. Fusce sodales, velit et consectetur fermentum, libero metus efficitur velit, eget eleifend quam nisi eget urna. Integer vel sodales ipsum. Proin vehicula, nulla sit amet pellentesque ultricies, odio ex sodales leo, nec tincidunt justo nisl a dolor. Ut auctor tristique velit, nec aliquam magna varius ac. Nunc aliquet lorem non erat aliquet, vel ullamcorper lectus volutpat. Donec dapibus mauris sed posuere tincidunt. Nullam sit amet pulvinar tortor. Vivamus in quam sit amet enim fringilla finibus. Maecenas vehicula vitae nunc eu interdum.\\n\\nPraesent sit amet viverra lorem. Aliquam consectetur nisl eu purus luctus, eu mollis dolor consectetur. Quisque et lacinia tortor. Sed vitae luctus ex. Nulla facilisi. In eget ex in ante placerat rhoncus. Mauris et maximus purus. Integer fermentum orci nec tincidunt convallis. Suspendisse id justo vel ex congue faucibus non nec lorem. Sed hendrerit, libero vitae lacinia feugiat, nunc velit lacinia sem, id lacinia urna felis non justo. Nunc eget arcu risus. Curabitur rhoncus odio sit amet felis tincidunt, eget vulputate tortor congue. Etiam ultrices velit non felis vestibulum viverra. Sed tristique odio eget ligula egestas, nec malesuada leo posuere. Sed sed libero sit amet urna eleifend malesuada ac id nisi. Sed nec semper neque."
+    }, {
+      "id": "b6531bb7-c371-4d91-b281-0a3578267024",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "436514ff-4ee3-45e7-927e-af6171045cfc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8228e743-4b63-4259-88f4-1e0a333e70c7"]
+  }],
+  "urls": ["https://www.monicahq.com/"],
+  "plugins": []
+}
